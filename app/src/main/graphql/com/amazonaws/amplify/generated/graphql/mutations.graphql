@@ -1,0 +1,193 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateDailyInfo(
+  $input: CreateDailyInfoInput!
+  $condition: ModelDailyInfoConditionInput
+) {
+  createDailyInfo(input: $input, condition: $condition) {
+    id
+    weight
+    userID
+    User {
+      id
+      username
+      age
+      height
+      targetWeight
+      currentWeight
+      profileImgKey
+      activityLevel
+      DailyInfos {
+        nextToken
+      }
+      createdAt
+      updatedAt
+    }
+    bmi
+    currentCalorie
+    day
+    calendarDate
+    dateCreated
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateDailyInfo(
+  $input: UpdateDailyInfoInput!
+  $condition: ModelDailyInfoConditionInput
+) {
+  updateDailyInfo(input: $input, condition: $condition) {
+    id
+    weight
+    userID
+    User {
+      id
+      username
+      age
+      height
+      targetWeight
+      currentWeight
+      profileImgKey
+      activityLevel
+      DailyInfos {
+        nextToken
+      }
+      createdAt
+      updatedAt
+    }
+    bmi
+    currentCalorie
+    day
+    calendarDate
+    dateCreated
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteDailyInfo(
+  $input: DeleteDailyInfoInput!
+  $condition: ModelDailyInfoConditionInput
+) {
+  deleteDailyInfo(input: $input, condition: $condition) {
+    id
+    weight
+    userID
+    User {
+      id
+      username
+      age
+      height
+      targetWeight
+      currentWeight
+      profileImgKey
+      activityLevel
+      DailyInfos {
+        nextToken
+      }
+      createdAt
+      updatedAt
+    }
+    bmi
+    currentCalorie
+    day
+    calendarDate
+    dateCreated
+    createdAt
+    updatedAt
+  }
+}
+mutation CreateUser(
+  $input: CreateUserInput!
+  $condition: ModelUserConditionInput
+) {
+  createUser(input: $input, condition: $condition) {
+    id
+    username
+    age
+    height
+    targetWeight
+    currentWeight
+    profileImgKey
+    activityLevel
+    DailyInfos {
+      items {
+        id
+        weight
+        userID
+        bmi
+        currentCalorie
+        day
+        calendarDate
+        dateCreated
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateUser(
+  $input: UpdateUserInput!
+  $condition: ModelUserConditionInput
+) {
+  updateUser(input: $input, condition: $condition) {
+    id
+    username
+    age
+    height
+    targetWeight
+    currentWeight
+    profileImgKey
+    activityLevel
+    DailyInfos {
+      items {
+        id
+        weight
+        userID
+        bmi
+        currentCalorie
+        day
+        calendarDate
+        dateCreated
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteUser(
+  $input: DeleteUserInput!
+  $condition: ModelUserConditionInput
+) {
+  deleteUser(input: $input, condition: $condition) {
+    id
+    username
+    age
+    height
+    targetWeight
+    currentWeight
+    profileImgKey
+    activityLevel
+    DailyInfos {
+      items {
+        id
+        weight
+        userID
+        bmi
+        currentCalorie
+        day
+        calendarDate
+        dateCreated
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+    createdAt
+    updatedAt
+  }
+}

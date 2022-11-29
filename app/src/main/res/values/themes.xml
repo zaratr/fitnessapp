@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BetterMe" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+<!--        <item name="android:windowFullscreen">true</item>-->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/design_default_color_error</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+<!--        <item name="android:statusBarColor">@android:color/transparent</item>-->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/design_default_color_error</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="Theme.CalendarApp" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="Theme.DemoOne" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- NavBar Text and Button Faces -->
+        <item name="colorPrimary">@color/PrimaryRedAndLogo</item>
+
+        <!-- Do not know when or where this is used -->
+        <item name="colorPrimaryVariant">@color/CoreGreen</item>
+
+        <!-- button text -->
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Need to verify these work for error messages, text, etc -->
+        <item name="colorError">@color/PrimaryRedMedium</item>
+        <item name="colorOnError">@color/PrimaryRedDarker</item>
+
+        <!-- BottomNavigationView surface color -->
+        <item name="colorSurface">@color/white</item>
+
+        <!-- BottomNavigationView icon highlight color -->
+        <item name="colorOnSurface">@color/BlueGrey</item>
+
+        <!-- Activity background -->
+        <item name="android:colorBackground">@color/BlueGrey</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/PrimaryRedDarker</item>
+
+        <!-- Activity background type -->
+        <item name="android:background">@color/Transparent</item>
+
+        <!-- Image Button behind-image/anijpg color -->
+        <item name="android:colorButtonNormal">@color/DarkGrey</item>
+
+        <!-- TextView fields throughout the App -->
+        <item name="android:textColor">@color/BlackRed</item>
+
+        <!-- do not know when or where this is used -->
+        <item name="colorSecondary">@color/GoldPopMedium</item>
+
+        <!-- do not know when or where this is used -->
+        <item name="colorSecondaryVariant">@color/GoldPopDark</item>
+
+        <!-- do not know when or where this is used -->
+        <item name="colorOnSecondary">@color/CoreGreen</item>
+
+    </style>
+</resources>

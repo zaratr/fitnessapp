@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="home"
+        android:id="@+id/home_nav"
+        android:icon="@drawable/icon6"
+        />
+    <item android:title="calendar"
+        android:id="@+id/calendar_nav"
+        android:icon="@drawable/ic_calendar_placeholder_vector"
+        />
+    <item android:title="gps"
+        android:id="@+id/gps_nav"
+        android:icon="@drawable/ic_gps_pin_24"
+        />
+<!--    <item android:title="log"-->
+<!--        android:id="@+id/log_nav"-->
+<!--        android:icon="@drawable/ic_log_placeholder_vector"-->
+<!--        />-->
+    <item android:title="workouts"
+        android:id="@+id/workouts_nav"
+        android:icon="@drawable/ic_workouts_placeholder_vector"
+        />
+    <item android:title="settings"
+        android:id="@+id/settings_nav"
+        android:icon="@drawable/ic_settings_and_account_placeholder_vector"
+        />
+
+
+</menu>

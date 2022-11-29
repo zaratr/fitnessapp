@@ -1,0 +1,116 @@
+# this is an auto generated file. This will be overwritten
+query GetDailyInfo($id: ID!) {
+  getDailyInfo(id: $id) {
+    id
+    weight
+    userID
+    User {
+      id
+      username
+      age
+      height
+      targetWeight
+      currentWeight
+      profileImgKey
+      activityLevel
+      DailyInfos {
+        nextToken
+      }
+      createdAt
+      updatedAt
+    }
+    bmi
+    currentCalorie
+    day
+    calendarDate
+    dateCreated
+    createdAt
+    updatedAt
+  }
+}
+query ListDailyInfos(
+  $filter: ModelDailyInfoFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listDailyInfos(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      weight
+      userID
+      User {
+        id
+        username
+        age
+        height
+        targetWeight
+        currentWeight
+        profileImgKey
+        activityLevel
+        createdAt
+        updatedAt
+      }
+      bmi
+      currentCalorie
+      day
+      calendarDate
+      dateCreated
+      createdAt
+      updatedAt
+    }
+    nextToken
+  }
+}
+query GetUser($id: ID!) {
+  getUser(id: $id) {
+    id
+    username
+    age
+    height
+    targetWeight
+    currentWeight
+    profileImgKey
+    activityLevel
+    DailyInfos {
+      items {
+        id
+        weight
+        userID
+        bmi
+        currentCalorie
+        day
+        calendarDate
+        dateCreated
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+    createdAt
+    updatedAt
+  }
+}
+query ListUsers(
+  $filter: ModelUserFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listUsers(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      username
+      age
+      height
+      targetWeight
+      currentWeight
+      profileImgKey
+      activityLevel
+      DailyInfos {
+        nextToken
+      }
+      createdAt
+      updatedAt
+    }
+    nextToken
+  }
+}

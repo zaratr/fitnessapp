@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-betterme-dev-174943-authRole",
+      "UnauthRoleArn": "arn:aws:iam::806277868894:role/amplify-betterme-dev-174943-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::806277868894:role/amplify-betterme-dev-174943-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-betterme-dev-174943-deployment",
+      "UnauthRoleName": "amplify-betterme-dev-174943-unauthRole",
+      "StackName": "amplify-betterme-dev-174943",
+      "StackId": "arn:aws:cloudformation:us-east-1:806277868894:stack/amplify-betterme-dev-174943/09d26480-0488-11ed-908a-0a0cd1bbb7f7",
+      "AmplifyAppId": "d2uurukwh9h3zp"
+    },
+    "categories": {
+      "auth": {
+        "betterme254bbc93": {}
+      }
+    }
+  }
+}

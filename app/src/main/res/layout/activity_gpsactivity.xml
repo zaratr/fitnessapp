@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightestBlue"
+    android:orientation="vertical"
+
+    tools:context=".activities.GPSActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <!--NAVBAR STUFF-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible">
+
+        <ImageButton
+            android:id="@+id/trail"
+            android:layout_width="72dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="20dp"
+            android:padding="30dp"
+            android:src="@drawable/gpspark"
+            app:layout_constraintBottom_toBottomOf="@+id/drugStore"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <ImageButton
+            android:id="@+id/drugStore"
+            android:layout_width="72dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="28dp"
+            android:padding="30dp"
+            android:src="@drawable/gpssups"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/gymImageBtn"
+            android:layout_width="66dp"
+            android:layout_height="64dp"
+            android:layout_marginEnd="16dp"
+            android:padding="30dp"
+            android:src="@drawable/gpsgym"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/drugStore"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Parks"
+            app:layout_constraintEnd_toEndOf="@+id/trail"
+            app:layout_constraintStart_toStartOf="@+id/trail"
+            app:layout_constraintTop_toBottomOf="@+id/trail" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Supplements"
+            app:layout_constraintEnd_toEndOf="@+id/drugStore"
+            app:layout_constraintStart_toStartOf="@+id/drugStore"
+            app:layout_constraintTop_toBottomOf="@+id/drugStore" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Gyms"
+            app:layout_constraintEnd_toEndOf="@+id/gymImageBtn"
+            app:layout_constraintStart_toStartOf="@+id/gymImageBtn"
+            app:layout_constraintTop_toBottomOf="@+id/gymImageBtn" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+    <!--NAVBAR STUFF-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

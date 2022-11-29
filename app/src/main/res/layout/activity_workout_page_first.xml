@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050000"
+    tools:context=".activities.WorkoutPageFirst">
+
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:id="@+id/buttonBack"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/LightGrey"
+        android:contentDescription="@string/ok"
+        android:scaleType="fitXY"
+        android:src="@drawable/shouldersnob0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLegs"
+        app:srcCompat="@android:drawable/progress_horizontal" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/titleTypeOfWorkouts"
+        android:textColor="#F6F3F3"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/motivationalQuote" />
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:id="@+id/buttonAbdominal"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="27dp"
+        android:background="@color/LightGrey"
+        android:contentDescription="@string/ok"
+        android:scaleType="fitXY"
+        android:src="@drawable/absnob"
+        android:text="@string/abdominals"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/progress_horizontal"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:id="@+id/buttonChest"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/LightGrey"
+        android:contentDescription="@string/ok"
+        android:scaleType="fitXY"
+        android:src="@drawable/bench2nob"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/progress_horizontal"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:id="@+id/buttonArms"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/LightGrey"
+        android:contentDescription="@string/ok"
+        android:scaleType="fitXY"
+        android:src="@drawable/curl2nob"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonChest"
+        app:srcCompat="@android:drawable/progress_horizontal" />
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:id="@+id/buttonShoulders"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/LightGrey"
+        android:contentDescription="@string/ok"
+        android:scaleType="fitXY"
+        android:src="@drawable/rownob"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonArms"
+        app:srcCompat="@android:drawable/progress_horizontal" />
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:id="@+id/buttonLegs"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/LightGrey"
+        android:contentDescription="@string/ok"
+        android:scaleType="fitXY"
+        android:src="@drawable/legsnob"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAbdominal"
+        app:srcCompat="@android:drawable/progress_horizontal" />
+
+    <ImageView
+        android:id="@+id/Icon2"
+        android:layout_width="151dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/bettermesecondimage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon6"
+        tools:ignore="ImageContrastCheck" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+
+
+    <TextView
+        android:id="@+id/textViewAbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:layout_marginBottom="92dp"
+        android:text="@string/abdominals"
+        android:textColor="#0C0C0C"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonAbdominal"
+        app:layout_constraintStart_toStartOf="@+id/buttonAbdominal" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="107dp"
+        android:layout_marginBottom="92dp"
+        android:text="Chest"
+        android:textColor="#0C0C0C"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonChest"
+        app:layout_constraintStart_toStartOf="@+id/buttonChest" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginBottom="92dp"
+        android:text="Legs"
+        android:textColor="#090909"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonLegs"
+        app:layout_constraintStart_toStartOf="@+id/buttonLegs" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="107dp"
+        android:layout_marginBottom="92dp"
+        android:text="Arms"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonArms"
+        app:layout_constraintStart_toStartOf="@+id/buttonArms" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="10dp"
+        android:text="Shoulders"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/buttonBack"
+        app:layout_constraintTop_toTopOf="@+id/buttonBack" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="10dp"
+        android:text="Back"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/buttonShoulders"
+        app:layout_constraintTop_toTopOf="@+id/buttonShoulders" />
+
+
+    <!-- TESTING API START -->
+    <!--    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--        xmlns:tools="http://schemas.android.com/tools"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        tools:context="abhiandroid.com.volleycustomrequestqueueexample.MainActivity">-->
+
+
+    <!--        <Button-->
+    <!--            android:id="@+id/btnRequest"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:background="#414af4"-->
+    <!--            android:text="Click Here To Send HTTP Request To Server And See Response Displayed As Toast"-->
+    <!--            android:textColor="#ffffff"-->
+    <!--            android:layout_alignParentTop="true"-->
+    <!--            android:layout_marginTop="50dp" />-->
+    <!--    </RelativeLayout>-->
+    <!-- TESTING API END -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

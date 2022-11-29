@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ShadowXyValues" parent="TextAppearance.AppCompat">
+        <!-- use these to add a shadow effect to Text -->
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowDx">6</item>
+        <item name="android:shadowRadius">8</item>
+        <item name="android:shadowColor">@color/BlackRed</item>
+    </style>
+    <style name="PadImageButton" parent="Widget.AppCompat.ImageButton">
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
+    <style name="DefaultTextColor" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/BlackRed</item>
+    </style>
+    <style name="AlternateTextColor" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="LargerFont">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="BaseButtonBackground" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/PrimaryRedAndLogo</item>
+    </style>
+
+    <style name="DefaultTextViewBackground" parent="Widget.AppCompat.TextView">
+        <item name="android:background">@color/DarkGrey</item>
+    </style>
+    <style name="DefaultTextViewFontColor" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/LightestGrey</item>
+    </style>
+
+</resources>

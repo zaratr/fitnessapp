@@ -1,0 +1,14 @@
+{
+  "resourceName": "betterMe",
+  "policyUUID": "44d695c5",
+  "bucketName": "bettermef02c78cbfb3340d0a11008832744cdc4",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
