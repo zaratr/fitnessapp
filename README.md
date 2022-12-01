@@ -17,33 +17,16 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
 
 ## App Features
 
-<div style="display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between">
+<p style="display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between">
       <img src="Public/loginvideo.gif" alt="login" width="150">
       <img src="Public/signup.png" alt="Step1" width="150">
       <img src="Public/updateinfo.JPG" alt="Step2" width="150">
       <img src="Public/selectworkout.png" alt="Step3" width="150">
       <img src="Public/img.png" alt="step 4" width="150">
       <img src="Public/smartspotter.png" alt="MLVideo" width="150">
-</div>
+</p>
 
 
-### Development Requirements
-
-- AndroidStudio 2021.2.1 patch 1
-- Gradle version 7.3.3
-- Android gradle plugin version 4.1.2
-- Android API 32 SDK (minimum v.24)
-- Java Version 17
-- Physical Android device (optional)
-- gradle:4.1.2
-- amplify-tools-gradle-plugin:1.0.2
-- AWS Account
-- AWS Cognito
-- AWS S3 Storage
-- Android APK v
-- Java JDK 17
-- Use Google API Key by placing it in: ()
-- if using intellij make sure to update IDE and downgrade gradle version (current issue with gradle and Intellij)
 
 ## The Team
 

@@ -1,4 +1,20 @@
-# Requirements
+# Development Requirements
+
+- AndroidStudio 2021.2.1 patch 1
+- Gradle version 7.3.3
+- Android gradle plugin version 4.1.2
+- Android API 32 SDK (minimum v.24)
+- Java Version 17
+- Physical Android device (optional)
+- gradle:4.1.2
+- amplify-tools-gradle-plugin:1.0.2
+- AWS Account
+- AWS Cognito
+- AWS S3 Storage
+- Android APK v
+- Java JDK 17
+- Use Google API Key by placing it in: ()
+- if using intellij make sure to update IDE and downgrade gradle version (current issue with gradle and Intellij)
 
 ## Vision
 
@@ -65,21 +81,6 @@ Calendar: Set reminders and capture data from workouts into the custom BetterMe 
 
 <!-- input required software, packages, dependencies, dev and test keys files etc and commands necessary to build this App and run it on an Android Emulator or Physical Device -->
 
-### Development Requirements
-
-- AndroidStudio 2021.2.1 patch 1
-- Gradle version 7.3.3
-- Android gradle plugin version 4.1.2
-- Android API 32 SDK (minimum v.24)
-- Java Version 17
-- Physical Android device (optional)
-- gradle:4.1.2
-- amplify-tools-gradle-plugin:1.0.2
-- AWS Account
-- AWS Cognito
-- AWS S3 Storage
-- Android APK v
-- Java JDK
 
 See [README](./README.md) for details on how to build and run this App on an Emulator or your physical device.
 -- -
