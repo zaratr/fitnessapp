@@ -16,7 +16,7 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
 - [Follow these instructions to set up AWS, Google API](app/README.md)
 
 ## App Features
-<body>
+
 <div style="display: flex; flex-wrap:wrap; justify-content: space-between">
     <div>
       <img src="Public/loginvideo.gif" alt="login" width="150">
@@ -45,7 +45,7 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
     </div>
 
 </div>
-</body>
+
 
 ### Development Requirements
 
