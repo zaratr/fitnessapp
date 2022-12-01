@@ -12,6 +12,9 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
 ## Instructions
 - [Follow these instructions to set up AWS, Google API](app/README.md)
 
+## App Features
+
+
   <img src="Public/loginvideo.gif" alt="login" width="250">
   <img src="Public/signup.png" alt="Step1" width="250">
   <img src="Public/updateinfo.JPG" alt="Step2" width="250">
