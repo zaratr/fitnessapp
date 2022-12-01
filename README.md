@@ -17,27 +17,14 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
 
 ## App Features
 
-<ul style="display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between">
-    <li>
+<div style="display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between">
       <img src="Public/loginvideo.gif" alt="login" width="150">
-    </li>
-    <li>
       <img src="Public/signup.png" alt="Step1" width="150">
-    </li>
-    <li>
       <img src="Public/updateinfo.JPG" alt="Step2" width="150">
-    </li>
-    <li>
       <img src="Public/selectworkout.png" alt="Step3" width="150">
-    </li>
-    <li>
       <img src="Public/img.png" alt="step 4" width="150">
-    </li>
-    <li>
       <img src="Public/smartspotter.png" alt="MLVideo" width="150">
-        <p>Gym Spotter!</p>
-    </li>
-</ul>
+</div>
 
 
 ### Development Requirements
