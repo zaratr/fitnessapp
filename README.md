@@ -18,33 +18,30 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
 ## App Features
 
 <div style="display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between">
-<div>
-  <img src="Public/loginvideo.gif" alt="login" width="150">
-    <figcaption>Welcome Activity!</figcaption>
-</div>
-<div>
-  <img src="Public/signup.png" alt="Step1" width="150">
-    <figcaption>Sign Up!</figcaption>
-</div>
-<div>
-  <img src="Public/updateinfo.JPG" alt="Step2" width="150">
-    <figcaption>Update User Name!</figcaption>
-</div>
-<div>
-  <img src="Public/selectworkout.png" alt="Step3" width="150">
-    <figcaption>Welcome Information Animation!</figcaption>
-</div>
-<div>
-  <img src="Public/img.png" alt="step 4" width="150">
-    <figcaption>Gym Finder with Google Maps</figcaption>
-</div>
-<div>
-  <img src="Public/smartspotter.png" alt="MLVideo" width="150">
-    <figcaption>Gym Spotter!</figcaption>
-</div>
-<div>
-    <figcaption>!</figcaption>
-</div>
+    <div>
+      <img src="Public/loginvideo.gif" alt="login" width="150">
+        <p>Welcome Activity!</p>
+    </div>
+    <div>
+      <img src="Public/signup.png" alt="Step1" width="150">
+        <p>Sign Up!</p>
+    </div>
+    <div>
+      <img src="Public/updateinfo.JPG" alt="Step2" width="150">
+        <p>Update User Name!</p>
+    </div>
+    <div>
+      <img src="Public/selectworkout.png" alt="Step3" width="150">
+        <p>Welcome Information Animation!</p>
+    </div>
+    <div>
+      <img src="Public/img.png" alt="step 4" width="150">
+        <p>Gym Finder with Google Maps</p>
+    </div>
+    <div>
+      <img src="Public/smartspotter.png" alt="MLVideo" width="150">
+        <p>Gym Spotter!</p>
+    </div>
 </div>
 
 
