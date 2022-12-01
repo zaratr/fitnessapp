@@ -17,7 +17,7 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
 
 ## App Features
 
-<div style="display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between">
+<div style="display: flex; flex-wrap:wrap; justify-content: space-between">
     <div>
       <img src="Public/loginvideo.gif" alt="login" width="150">
         <p>Welcome Activity!</p>
