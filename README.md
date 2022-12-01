@@ -26,6 +26,7 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
       <img src="Public/signup.png" alt="Step1" width="150">
         <p>Sign Up!</p>
     </div>
+</div>
     <div>
       <img src="Public/updateinfo.JPG" alt="Step2" width="150">
         <p>Update User Name!</p>
@@ -42,7 +43,7 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
       <img src="Public/smartspotter.png" alt="MLVideo" width="150">
         <p>Gym Spotter!</p>
     </div>
-</div>
+
 
 
 ### Development Requirements
