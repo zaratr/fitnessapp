@@ -17,32 +17,32 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
 
 ## App Features
 
-<div style="display: flex; flex-wrap:wrap; justify-content: space-between">
-    <div>
+<ul style="display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between">
+    <li>
       <img src="Public/loginvideo.gif" alt="login" width="150">
         <p>Welcome Activity!</p>
-    </div>
-    <div>
+    </li>
+    <li>
       <img src="Public/signup.png" alt="Step1" width="150">
         <p>Sign Up!</p>
-    </div>
-    <div>
+    </li>
+    <li>
       <img src="Public/updateinfo.JPG" alt="Step2" width="150">
         <p>Update User Name!</p>
-    </div>
-    <div>
+    </li>
+    <li>
       <img src="Public/selectworkout.png" alt="Step3" width="150">
         <p>Welcome Information Animation!</p>
-    </div>
-    <div>
+    </li>
+    <li>
       <img src="Public/img.png" alt="step 4" width="150">
         <p>Gym Finder with Google Maps</p>
-    </div>
-    <div>
+    </li>
+    <li>
       <img src="Public/smartspotter.png" alt="MLVideo" width="150">
         <p>Gym Spotter!</p>
-    </div>
-</div>
+    </li>
+</ul>
 
 
 ### Development Requirements
