@@ -15,7 +15,7 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
 ## App Features
 
 <div style="display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between">
-  <img src="Public/loginvideo.gif" alt="login" width="250" height="auto";>
+  <img src="Public/loginvideo.gif" alt="login" width="150" height="auto";>
   <img src="Public/signup.png" alt="Step1" width="150" height="auto">
   <img src="Public/updateinfo.JPG" alt="Step2" width="150" height="auto">
   <img src="Public/selectworkout.png" alt="Step3" width="150">
