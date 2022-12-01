@@ -20,23 +20,18 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
 <ul style="display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between">
     <li>
       <img src="Public/loginvideo.gif" alt="login" width="150">
-        <p>Welcome Activity!</p>
     </li>
     <li>
       <img src="Public/signup.png" alt="Step1" width="150">
-        <p>Sign Up!</p>
     </li>
     <li>
       <img src="Public/updateinfo.JPG" alt="Step2" width="150">
-        <p>Update User Name!</p>
     </li>
     <li>
       <img src="Public/selectworkout.png" alt="Step3" width="150">
-        <p>Welcome Information Animation!</p>
     </li>
     <li>
       <img src="Public/img.png" alt="step 4" width="150">
-        <p>Gym Finder with Google Maps</p>
     </li>
     <li>
       <img src="Public/smartspotter.png" alt="MLVideo" width="150">
