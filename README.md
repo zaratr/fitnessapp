@@ -14,7 +14,7 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
 
 ## App Features
 
-
+<div style="display: flex; flex-direction: row; flex-wrap:wrap;">
   <img src="Public/loginvideo.gif" alt="login" width="250">
   <img src="Public/signup.png" alt="Step1" width="250">
   <img src="Public/updateinfo.JPG" alt="Step2" width="250">
@@ -22,6 +22,7 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
   <img src="Public/img.png" alt="step 4" width="250">
   <img src="Public/smartspotter.png" alt="MLVideo" width="250">
   <img src="Public/squatreps.gif" alt="MLVideo" width="250">
+</div>
       
 
 ### Development Requirements
