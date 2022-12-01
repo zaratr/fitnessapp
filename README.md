@@ -43,7 +43,6 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
       <img src="Public/smartspotter.png" alt="MLVideo" width="150">
         <p>Gym Spotter!</p>
     </div>
-
 </div>
 
 
