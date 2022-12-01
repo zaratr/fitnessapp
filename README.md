@@ -1,4 +1,7 @@
 # The BetterMe App <img src="Public/icon1.png" alt="login" width="250">
+<div style="display: flex; justify-content: center;">
+  <img  src="Public/squatreps1.gif" alt="MLVideo" width="150">
+</div>
 ## Project Summary
 
 BetterMe gives new and regular gym users a place to record their BMI and display a history log that shows a workout streak Mon-Fri.
@@ -14,16 +17,36 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
 
 ## App Features
 
-<div style="display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between">
+<figure style="display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between">
+<div>
   <img src="Public/loginvideo.gif" alt="login" width="150">
-  <img src="Public/signup.png" alt="Step1" width="150">
-  <img src="Public/updateinfo.JPG" alt="Step2" width="150">
-  <img src="Public/selectworkout.png" alt="Step3" width="150">
-  <img src="Public/img.png" alt="step 4" width="150">
-  <img src="Public/smartspotter.png" alt="MLVideo" width="150">
-  <img src="Public/squatreps.gif" alt="MLVideo" width="150">
+    <figcaption>Welcome Activity!</figcaption>
 </div>
-      
+<div>
+  <img src="Public/signup.png" alt="Step1" width="150">
+    <figcaption>Sign Up!</figcaption>
+</div>
+<div>
+  <img src="Public/updateinfo.JPG" alt="Step2" width="150">
+    <figcaption>Update User Name!</figcaption>
+</div>
+<div>
+  <img src="Public/selectworkout.png" alt="Step3" width="150">
+    <figcaption>Welcome Information Animation!</figcaption>
+</div>
+<div>
+  <img src="Public/img.png" alt="step 4" width="150">
+    <figcaption>Gym Finder with Google Maps</figcaption>
+</div>
+<div>
+  <img src="Public/smartspotter.png" alt="MLVideo" width="150">
+    <figcaption>Gym Spotter!</figcaption>
+</div>
+<div>
+    <figcaption>!</figcaption>
+</div>
+</figure>
+
 
 ### Development Requirements
 
