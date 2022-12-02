@@ -1,8 +1,11 @@
 # The BetterMe App <img src="Public/icon1.png" alt="login" width="250">
 
-<div style="display: flex; flex-direction: row; justify-content: center;">
+<div style="display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between;">
+
   <img  src="Public/squatreps.gif" alt="MLVideo" width="150">
+
   <img  src="Public/pushupreps.gif" alt="MLVideo" width="150">
+
 </div>
 
 ## Project Summary
