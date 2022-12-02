@@ -18,7 +18,7 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
 
 ## App Features
 
-<style>
+<style type="text/css">
 #container{ 
 display: flex;
 flex-direction: row; 
