@@ -18,8 +18,11 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
 
 ## App Features
 
+      | ![image1](Public/loginvideo.gif) |
+      | ![image2](Public/signup.png) |
+
 <p style="display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between">
-      <img src="Public/loginvideo.gif" alt="login" width="150"><span>here</span><img/>
+      <img src="Public/loginvideo.gif" alt="login" width="150"/>
       <img src="Public/signup.png" alt="Step1" width="150"/>
       <img src="Public/updateinfo.JPG" alt="Step2" width="150"/>
       <img src="Public/selectworkout.png" alt="Step3" width="150"/>
