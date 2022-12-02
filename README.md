@@ -18,9 +18,9 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
 
 ## App Features
 
-| ![image1](Public/loginvideo.gif =150x) | ![image2](Public/signup.png =150x) | ![image3](Public/updateinfo.JPG =150x) |
-|----------------------------------------|------------------------------------|----------------------------------------|
-| here is stuff                          | here is stuff2                     | here ismore                            |
+| ![image1](Public/loginvideo.gif) | ![image2](Public/signup.png) | ![image3](Public/updateinfo.JPG) |
+|----------------------------------|------------------------------|----------------------------------|
+| here is stuff                    | here is stuff2               | here ismore                      |
 
 
 <p style="display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between">
