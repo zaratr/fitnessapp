@@ -26,6 +26,8 @@ flex-wrap:wrap;
 justify-content: space-between;
 }
 </style>
+
+
 <div id="container">
       <img id=image src="Public/loginvideo.gif" alt="login" width="150"/>
       <img id=image src="Public/signup.png" alt="Step1" width="150"/>
