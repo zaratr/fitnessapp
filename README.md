@@ -1,6 +1,7 @@
 # The BetterMe App <img src="Public/icon1.png" alt="login" width="250">
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-evenly;">
   <img  src="Public/squatreps1.gif" alt="MLVideo" width="150">
+  <img  src="Public/pushupreps.gif" alt="MLVideo" width="150">
 </div>
 
 ## Project Summary
@@ -55,14 +56,6 @@ BetterMe aims to be your coach by providing reminders of good workout habits inc
 
 <!-- why should anyone care about this product? -->
 BetterMe provides a variety of workout plans, uplifting motivational quotes, and a scheduling feature to help keep you on your workout routines, and improve your likelihood of meeting your performance and physical health goals.
-
-## Scope
-
-<!-- what will the product DO (high level only) -->
-
-BetterMe App helps organize and inform Clients about excercising and where nearest gym is at.
-
-<!-- what will the product NOT DO (high level and be specific things that will NOT be done in development, limit to 1 or 2 things -->
 
 ## The Team
 
