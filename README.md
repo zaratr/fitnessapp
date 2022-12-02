@@ -2,6 +2,7 @@
 <div style="display: flex; justify-content: center;">
   <img  src="Public/squatreps1.gif" alt="MLVideo" width="150">
 </div>
+
 ## Project Summary
 
 BetterMe gives new and regular gym users a place to record their BMI and display a history log that shows a workout streak Mon-Fri.
@@ -18,7 +19,7 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
 ## App Features
 
 <p style="display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between">
-      <img src="Public/loginvideo.gif" alt="login" width="150"/>
+      <img src="Public/loginvideo.gif" alt="login" width="150"><span>here</span><img/>
       <img src="Public/signup.png" alt="Step1" width="150"/>
       <img src="Public/updateinfo.JPG" alt="Step2" width="150"/>
       <img src="Public/selectworkout.png" alt="Step3" width="150"/>
