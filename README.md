@@ -41,6 +41,29 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
 | <img id=image src="Public/selectworkout.png" alt="Step3" width="150"/> | <img id=image src="Public/img.png" alt="step 4" width="150"/> | <img id=image src="Public/smartspotter.png" alt="MLVideo" width="150"/> |
 |------------------------------------------------------------------------|---------------------------------------------------------------|-------------------------------------------------------------------------|
 | Find out workouts selected by body parts                               | Google API gym finder                                         | Machine Learning Coach for Checking Form!                               |
+
+
+## Vision
+
+<!-- what is the vision of the product? -->
+BetterMe is an all-around motivational app for Android.
+
+<!-- what pain point does this project solve? -->
+Getting and staying in good physical condition is hard.
+Keeping up the motivation and energy to maintain a level of conditioning requires good habits and an actual coach is not always going to be available when you need one.
+BetterMe aims to be your coach by providing reminders of good workout habits including scheduling, fueling, and rest.
+
+<!-- why should anyone care about this product? -->
+BetterMe provides a variety of workout plans, uplifting motivational quotes, and a scheduling feature to help keep you on your workout routines, and improve your likelihood of meeting your performance and physical health goals.
+
+## Scope
+
+<!-- what will the product DO (high level only) -->
+
+BetterMe App helps organize and inform Clients about excercising and where nearest gym is at.
+
+<!-- what will the product NOT DO (high level and be specific things that will NOT be done in development, limit to 1 or 2 things -->
+
 ## The Team
 
 Roger Reyes [GitHub](https://github.com/RogerMReyes)
