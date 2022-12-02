@@ -18,26 +18,22 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
 
 ## App Features
 
-<figure style="display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between">
-    <figcaption>
-      <img src="Public/loginvideo.gif" alt="login" width="150"/>
-</figcaption>
-    <figcaption>
-      <img src="Public/signup.png" alt="Step1" width="150"/>
-</figcaption>
-    <figcaption>
-      <img src="Public/updateinfo.JPG" alt="Step2" width="150"/>
-</figcaption>
-    <figcaption>
-      <img src="Public/selectworkout.png" alt="Step3" width="150"/>
-</figcaption>
-    <figcaption>
-      <img src="Public/img.png" alt="step 4" width="150"/>
-</figcaption>
-    <figcaption>
-      <img src="Public/smartspotter.png" alt="MLVideo" width="150"/>
-</figcaption>
-</figure>
+<style>
+#container{ 
+display: flex;
+flex-direction: row; 
+flex-wrap:wrap; 
+justify-content: space-between;
+}
+</style>
+<p id="container">
+      <img id=image src="Public/loginvideo.gif" alt="login" width="150"/>
+      <img id=image src="Public/signup.png" alt="Step1" width="150"/>
+      <img id=image src="Public/updateinfo.JPG" alt="Step2" width="150"/>
+      <img id=image src="Public/selectworkout.png" alt="Step3" width="150"/>
+      <img id=image src="Public/img.png" alt="step 4" width="150"/>
+      <img id=image src="Public/smartspotter.png" alt="MLVideo" width="150"/>
+</p>
 
 
 
