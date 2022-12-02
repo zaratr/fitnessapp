@@ -26,14 +26,14 @@ flex-wrap:wrap;
 justify-content: space-between;
 }
 </style>
-<p id="container">
+<div id="container">
       <img id=image src="Public/loginvideo.gif" alt="login" width="150"/>
       <img id=image src="Public/signup.png" alt="Step1" width="150"/>
       <img id=image src="Public/updateinfo.JPG" alt="Step2" width="150"/>
       <img id=image src="Public/selectworkout.png" alt="Step3" width="150"/>
       <img id=image src="Public/img.png" alt="step 4" width="150"/>
       <img id=image src="Public/smartspotter.png" alt="MLVideo" width="150"/>
-</p>
+</div>
 
 
 
