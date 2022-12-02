@@ -18,17 +18,7 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
 
 ## App Features
 
-<style type="text/css">
-#container{ 
-display: flex;
-flex-direction: row; 
-flex-wrap:wrap; 
-justify-content: space-between;
-}
-</style>
-
-
-<div id="container">
+<div style="display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between;">
       <img id=image src="Public/loginvideo.gif" alt="login" width="150"/>
       <img id=image src="Public/signup.png" alt="Step1" width="150"/>
       <img id=image src="Public/updateinfo.JPG" alt="Step2" width="150"/>
@@ -37,7 +27,9 @@ justify-content: space-between;
       <img id=image src="Public/smartspotter.png" alt="MLVideo" width="150"/>
 </div>
 
-
+| <img src="Public/loginvideo.gif" width="150"/> | <img src="Public/loginvideo.gif" width="150"/> | <img src="Public/loginvideo.gif" width="150"/> |
+|------------------------------------------------|------------------------------------------------|------------------------------------------------|
+| stuff                                          | stuff                                          | stuff                                          |
 
 ## The Team
 
