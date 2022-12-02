@@ -35,12 +35,12 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
 [//]: # (</div>)
 
 | <img src="Public/loginvideo.gif" width="150"/> | <img id=image src="Public/signup.png" alt="Step1" width="150"/> | <img id=image src="Public/updateinfo.JPG" alt="Step2" width="150"/> |
-|------------------------------------------------|------------------------------------------------|---------------------------------------------------------------------|
-| stuff                                          | stuff                                          | stuff                                                               |
+|------------------------------------------------|-----------------------------------------------------------------|---------------------------------------------------------------------|
+| Login to Account with AWS                      | Sign up to the cloud using AWS OAuth                            | Update User Profile on Cloud!                                       |
 
 | <img id=image src="Public/selectworkout.png" alt="Step3" width="150"/> | <img id=image src="Public/img.png" alt="step 4" width="150"/> | <img id=image src="Public/smartspotter.png" alt="MLVideo" width="150"/> |
 |------------------------------------------------------------------------|---------------------------------------------------------------|-------------------------------------------------------------------------|
-| stuff                                                                  | stuff                                                         | stuff                                                                   |
+| Find out workouts selected by body parts                               | Google API gym finder                                         | Machine Learning Coach for Checking Form!                               |
 ## The Team
 
 Roger Reyes [GitHub](https://github.com/RogerMReyes)
