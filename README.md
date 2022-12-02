@@ -2,9 +2,9 @@
 
 <div style="display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between;">
 
-  <img  src="Public/squatreps.gif" alt="MLVideo" width="150"/>
+  <img src="Public/squatreps.gif" alt="MLVideo" width="150"/>
 
-  <img  src="Public/pushupreps.gif" alt="MLVideo" width="150"/>
+  <img src="Public/pushupreps.gif" alt="MLVideo" width="150"/>
 
 </div>
 
