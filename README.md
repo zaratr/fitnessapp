@@ -18,19 +18,26 @@ See [REQUIREMENTS](./REQUIREMENTS.md)
 
 ## App Features
 
-| ![image1](Public/loginvideo.gif) | ![image2](Public/signup.png) | ![image3](Public/updateinfo.JPG) |
-|----------------------------------|------------------------------|----------------------------------|
-| here is stuff                    | here is stuff2               | here ismore                      |
-
-
-<p style="display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between">
+<figure style="display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between">
+    <figcaption>
       <img src="Public/loginvideo.gif" alt="login" width="150"/>
+</figcaption>
+    <figcaption>
       <img src="Public/signup.png" alt="Step1" width="150"/>
+</figcaption>
+    <figcaption>
       <img src="Public/updateinfo.JPG" alt="Step2" width="150"/>
+</figcaption>
+    <figcaption>
       <img src="Public/selectworkout.png" alt="Step3" width="150"/>
+</figcaption>
+    <figcaption>
       <img src="Public/img.png" alt="step 4" width="150"/>
+</figcaption>
+    <figcaption>
       <img src="Public/smartspotter.png" alt="MLVideo" width="150"/>
-</p>
+</figcaption>
+</figure>
 
 
 
