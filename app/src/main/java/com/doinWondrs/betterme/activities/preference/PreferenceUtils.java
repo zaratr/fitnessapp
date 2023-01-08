@@ -28,6 +28,14 @@ public class PreferenceUtils {
     }
 
 
+    /**
+     * uses google to check if the preconditions are met - will be either front or back (integer values).
+     * throws if both are false so that means these werent defined somewhere
+     * Preconditions.checkArgument shortens usage of try catch block
+     * @param context
+     * @param lensfacing - Integer
+     * @return Size - String that represents size.
+     */
     @Nullable
     public static android.util.Size getCameraXTargetResolution(Context context, int lensfacing) {
         Preconditions.checkArgument(

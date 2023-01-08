@@ -151,14 +151,14 @@ public class TrainerActivity extends AppCompatActivity implements ActivityCompat
         }
 
         try {
+            //mlkit PoseDectorOptionBase
             PoseDetectorOptionsBase poseDetectorOptions =
+                    //mlkit /preference/PreferenceUtils/getPoseDetectorOptionsForLivePrevew => returns PoseDetectorOptionsBase
                     PreferenceUtils.getPoseDetectorOptionsForLivePreview(this);
-//            boolean shouldShowInFrameLikelihood =
-//                    PreferenceUtils.shouldShowPoseDetectionInFrameLikelihoodLivePreview(this);
-//            boolean visualizeZ = PreferenceUtils.shouldPoseDetectionVisualizeZ(this);
-//            boolean rescaleZ = PreferenceUtils.shouldPoseDetectionRescaleZForVisualization(this);
-//            boolean runClassification = PreferenceUtils.shouldPoseDetectionRunClassification(this);
+
+            //uses /mlhelpers/VisonImageProcessor Interface
             imageProcessor =
+                    //PoseDetectorProcessor extends VisionImageProcessorBase (class implements VisionImageProcessor)
                     new PoseDetectorProcessor(
                             this,
                             poseDetectorOptions,
@@ -177,8 +177,11 @@ public class TrainerActivity extends AppCompatActivity implements ActivityCompat
             return;
         }
 
+        //uses androidx for image analysis where Builder is a static class - rule is to use a Proxy to close it and analyze
         ImageAnalysis.Builder builder = new ImageAnalysis.Builder();
+        //gets the width and height of image in pixels
         Size targetResolution = PreferenceUtils.getCameraXTargetResolution(this, lensFacing);
+
         if (targetResolution != null) {
             builder.setTargetResolution(targetResolution);
         }
